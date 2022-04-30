@@ -1,0 +1,13 @@
+{
+  "name": "pplwork-internship-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

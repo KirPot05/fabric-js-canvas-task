@@ -17,16 +17,15 @@
     <div class="app-body">
 
         <div class="options">
-            <label for="files" class="btn" id="file-btn"> -- Select Image -- </label>
+            <label for="files" class="btn active" id="file-btn"> -- Select Image -- </label>
             <input type="file" accept="image/*" id="files">
 
-            <button class="btn" id="clear"> Clear </button>
-            <button class="btn"> Reset </button>
-            <button class="btn" id="download"> Download </button>
-            <button class="btn" id="btn-icon-prev"> <img src="https://img.icons8.com/material-sharp/24/000000/undo.png"/> </button>
-            <button class="btn " id="btn-icon-next"> <img src="https://img.icons8.com/material-sharp/24/000000/undo.png"/> </button>
-            <button class="btn"> Deactivate cursor </button>
-            <button class="btn"> Delete Object </button>
+            <button class="btn active" id="clear"> Clear </button>
+            <button class="btn active" id="download"> Download </button>
+            <button class="btn active" id="btn-icon-prev"> <img src="https://img.icons8.com/material-sharp/24/000000/undo.png"/> </button>
+            <button class="btn active" id="btn-icon-next"> <img src="https://img.icons8.com/material-sharp/24/000000/undo.png"/> </button>
+            <button class="btn btn-disabled" disabled> Deactivate cursor </button>
+            <button class="btn btn-disabled" disabled> Delete Object </button>
 
         </div>
         
@@ -35,8 +34,6 @@
             <canvas id="canvas"></canvas>
         </div>
     </div>
-        
-    <img style="display: none;" id="img" alt="">
 
 
     <script src="./lib/fabric.min.js"></script>

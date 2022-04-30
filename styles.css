@@ -61,11 +61,11 @@ body{
 }
 
 
-.btn:hover{
+.btn.active:hover{
     transform: scale(1.05);
 }
 
-.btn:active{
+.btn.active:active{
     transform: scale(0.9);
 }
 
@@ -85,4 +85,8 @@ body{
 
 #btn-icon-next > img{
     transform: scaleX(-1);
+}
+
+.btn-disabled{
+    color: rgb(124, 124, 124);
 }
